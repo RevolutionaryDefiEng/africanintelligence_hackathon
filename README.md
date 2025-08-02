@@ -2,7 +2,310 @@
 # African Intelligence LMS - API Documentation
 
 ## Project info
+Event Name: African Intelligence LMS Enhancement Hackathon
+Prize Pool: 1,000,000 (One Million Naira) + Bug Bounty
+Start Date: May 10th, 2025
+Duration: 8 weeks
+Location: Local Tech Hubs across Nigeria
+Objective: Enhance the African Intelligence Learning Management System with innovative features that improve interactivity, engagement, and accessibility for African learners. The ultimate goal is to create a world-class LMS that addresses unique challenges faced by learners in Africa while promoting AI education and implementation. Participants will also have the opportunity to identify and address security vulnerabilities within the platform.   
+Participation Rules
+Teams of 2-5 members can participate and must be present for the final 3 days of the competition.  
+Each team must register through the official hackathon portal   
+Teams can choose to work on one or more modules   
+All code must be original and created during the hackathon period   
+Participants must use the provided GitHub repository structure   
+Teams must commit code regularly (minimum once per day)   
+Final submissions must include documentation and a demo video   
+Technology Stack Requirements
+Frontend: React.js with Tailwind CSS   
+Backend: Node.js   
+Database: MongoDB (primary), PostgreSQL (for specific modules)   
+Authentication: JWT + OAuth   
+Hosting: Any cloud provider (AWS/GCP/Azure)   
+Version Control: Git/GitHub   
+﻿
+Hackathon Prize Allocation
 
+| **Category**             | **Prize (₦)** |
+| -------------------------------------- | ------------- |
+| AI Integrations to Enhance Learning  | 250,000   |
+| WhatsApp Integration (Smart Onboarding) | 200,000   |
+| UI/UX Enhancements          | 150,000   |
+| Mobile App (Offline-First Support)  | 250,000   |
+| Bug Bounty (Vulnerability Reports)  | 150,000   |
+
+Judging Criteria
+Each module will be judged based on the following criteria:   
+Functionality (40%): Does the module work as expected? Are all features implemented?   
+Code Quality (20%): Is the code clean, well-structured, and maintainable?   
+UI/UX Design (15%): Is the interface intuitive and aesthetically pleasing?   
+Performance (10%): Does the module perform efficiently with minimal loading times?   
+Innovation (10%): Does the implementation add unique value beyond the basic requirements?   
+Documentation (5%): Is the code well-documented with clear instructions?   
+For Bug Bounty submissions, the severity and impact of the vulnerability will be a primary factor in judging and determining the bounty amount.
+
+Submission Requirements
+For each module, teams must submit:   
+GitHub Repository: Fork the main repository and submit a pull request   
+Documentation: Complete README and API documentation   
+Demo Video: 3-5 minute video demonstrating the module functionality   
+Presentation: 10-slide deck explaining implementation approach and challenges   
+Module-Specific Requirements
+1. Interactive Problem-First Lessons   
+Key Deliverables:
+Step-by-step interactive lesson builder   
+
+Problem-solving challenges with automated feedback   
+
+Progress tracking system   
+
+Integration with existing course content   
+
+Technical Challenges:
+Creating a flexible markdown-based content creation system   
+
+Implementing an evaluation engine for different question types   
+
+Ensuring mobile responsiveness for all interactive elements   
+
+Learning Outcomes:
+Participants will be able to design and implement interactive learning modules with problem-solving elements.
+Participants will gain experience in creating automated feedback mechanisms and progress tracking systems.
+Prerequisites:
+Strong understanding of JavaScript and React.js.
+Experience with state management libraries (e.g., Redux, Zustand, or React Context).
+Basic knowledge of database interactions (MongoDB or PostgreSQL).
+Familiarity with UI/UX design principles.
+2. Gamified XP and Mastery System   
+Key Deliverables:
+XP points calculation engine   
+
+Streak tracking system   
+
+Leaderboards (global, course-specific, and weekly)   
+
+Achievement badges with unlock conditions   
+
+Technical Challenges:
+Designing a balanced point system   
+
+Creating engaging visual representations of progress   
+
+Implementing real-time leaderboard updates   
+
+Learning Outcomes:
+Participants will be able to design and implement a gamification system within an LMS, including XP calculation, streak tracking, leaderboards, and achievement badges.
+Participants will gain experience in creating engaging visual representations of progress and implementing real-time updates.
+Prerequisites:
+Strong understanding of JavaScript and React.js.
+Experience with state management libraries (e.g., Redux, Zustand, or React Context).
+Basic knowledge of database interactions (MongoDB or PostgreSQL).
+Familiarity with UI/UX design principles.
+3. Community-Led Discussions + Peer Reviews   
+Key Deliverables:
+Threaded discussion system for each lesson   
+
+Upvoting and reputation system   
+
+Peer review assignment mechanism   
+
+Moderation tools for facilitators   
+
+Technical Challenges:   
+Building a robust, real-time discussion system   
+
+Implementing fair peer review distribution   
+
+Creating an effective reputation system   
+
+Learning Outcomes:
+Participants will be able to develop a community forum within an LMS, including threaded discussions, user reputation, and peer review functionality.
+Participants will gain experience in building real-time communication systems and moderation tools.
+Prerequisites:
+Proficiency in backend development with Node.js.
+Experience with database design and management.
+Knowledge of real-time communication technologies (e.g., WebSockets).
+Understanding of user authentication and authorization.
+4. AI-Powered Assistant for Learners   
+Key Deliverables:
+Integration with GPT-4 or open-source LLM   
+
+Context-aware question answering   
+
+Learning material summarization   
+
+Integration with course content   
+
+Technical Challenges:
+Managing API costs and rate limits   
+
+Ensuring relevant and accurate responses   
+
+Implementing context awareness from course materials   
+
+Learning Outcomes:
+Participants will be able to integrate an LLM (GPT-4 or open-source) into an application.
+Participants will learn to handle API requests, manage rate limits, and ensure context-aware responses.
+Participants will gain skills in processing and summarizing learning materials.
+Prerequisites:
+Proficiency in Node.js and backend development.
+Experience with API integrations and handling asynchronous requests.
+Understanding of natural language processing (NLP) concepts is beneficial.
+Familiarity with cloud platforms (AWS, GCP, or Azure) for API hosting.
+5. Live Group Challenges + Hackathon Mode   
+Key Deliverables:
+Real-time collaboration environment   
+
+Time-limited challenge system   
+
+Team formation and management   
+
+Live scoring and leaderboards   
+
+Technical Challenges:
+Implementing WebSocket communication   
+
+Managing concurrent users in real-time   
+
+Creating a fair scoring system   
+
+Learning Outcomes:
+Participants will be able to develop a real-time collaborative learning environment.
+Participants will gain experience in implementing time-sensitive challenges and scoring mechanisms.
+Participants will learn to manage concurrent users and real-time data updates.
+Prerequisites:
+Strong backend development skills with Node.js.
+Experience with real-time communication protocols (e.g., WebSockets).
+Knowledge of database transactions and concurrency control.
+Familiarity with game development concepts is a plus.
+6. Versioned Content Contributions   
+Key Deliverables:
+Content submission system   
+
+Review and approval workflow   
+
+Version tracking and rollback   
+
+Contributor recognition system   
+
+Technical Challenges:
+Implementing a Git-like version control system   
+
+Creating a user-friendly content editor   
+
+Building a robust review process   
+
+Learning Outcomes:
+Participants will be able to develop a content management system with version control capabilities.
+Participants will gain experience in implementing workflows for content submission, review, and approval.
+Participants will learn to track changes and manage different versions of content.
+Prerequisites:
+Experience with backend development and database design.
+Understanding of version control concepts.
+Familiarity with content editing tools and WYSIWYG editors.
+Knowledge of user roles and permissions.
+7. Analytics & Personalized Recommendations   
+Key Deliverables:
+Comprehensive learning analytics dashboard   
+
+Personalized content recommendations   
+
+Performance insights and visualizations   
+
+Export functionality for reports   
+
+Technical Challenges:
+Processing large volumes of learning data   
+
+Creating meaningful visualizations   
+
+Implementing an effective recommendation algorithm   
+
+Learning Outcomes:
+Participants will be able to develop a data analytics dashboard to visualize learning data.
+Participants will gain experience in implementing personalized recommendation algorithms.
+Participants will learn to process and analyze large datasets to provide actionable insights.
+Prerequisites:
+Strong programming skills and data analysis experience.
+Knowledge of database querying and data manipulation.
+Familiarity with data visualization libraries (e.g., Chart.js, D3.js).
+Understanding of machine learning concepts for recommendations is a plus.
+8. Offline-First Access (Mobile App)   
+Key Deliverables:
+React Native or Flutter mobile application   
+
+Offline content synchronization   
+
+Progress tracking without connectivity   
+
+Push notification system   
+
+Technical Challenges:
+Managing offline data synchronization   
+
+Optimizing content for mobile devices   
+
+Handling various network conditions   
+
+Learning Outcomes:
+Participants will be able to develop a mobile application using React Native or Flutter.
+Participants will learn to implement offline data synchronization and manage data consistency.
+Participants will gain experience in optimizing content for mobile devices and handling various network conditions.
+Prerequisites:
+Experience with React Native or Flutter development.
+Knowledge of mobile development best practices.
+Understanding of local storage and data synchronization techniques.
+Familiarity with push notification systems.
+9. Custom Quiz Generator from PDF/Video   
+Key Deliverables:
+PDF and video content analyzer   
+
+AI-powered question generation   
+
+Question type variety (MCQ, True/False, Short Answer)   
+
+Manual override and editing interface   
+
+Technical Challenges:
+Extracting meaningful content from various formats   
+
+Generating relevant and challenging questions   
+
+Creating a user-friendly editing interface   
+
+Learning Outcomes:
+Participants will be able to develop an application that analyzes PDF and video content.
+Participants will gain experience in AI-powered question generation and creating various question types.
+Participants will learn to design user-friendly editing interfaces for content creation.
+Prerequisites:
+Strong programming skills in Python or Node.js.
+Experience with content analysis libraries or APIs.
+Knowledge of AI/ML concepts for question generation is a plus.
+UI/UX design skills for the editing interface.
+10. Facilitator Dashboard with Live Monitoring   
+Key Deliverables:
+Real-time student activity monitoring   
+
+Direct messaging system   
+
+Performance analytics for facilitators   
+
+Intervention tools   
+
+Technical Challenges:
+Aggregating real-time data across multiple students   
+
+Creating an intuitive dashboard interface   
+
+Implementing effective intervention mechanisms   
+
+Learning Outcomes:
+Participants will be able to develop a facilitator dashboard for monitoring student activity and performance.
+Participants will gain experience in implementing real-time data aggregation and visualization.
+Participants will learn to design tools for communication and intervention in an educational setting.
+Prerequisites:
+Experience with backend development and database design.
+Knowledge of data visualization and dashboard creation.
 
 ## How can I edit this code?
 
